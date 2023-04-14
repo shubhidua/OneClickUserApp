@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "665308342805",
+    "firebase_url": "https://oneclickadminapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "oneclickadminapp",
+    "storage_bucket": "oneclickadminapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665308342805:android:c9e291f5dc662eadc1fc1c",
+        "android_client_info": {
+          "package_name": "com.example.collegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665308342805-glt9i426jc9nes8dv4sndf0a11futmhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDysaxj5T0D8etiu32Er22OMZUDWrT9Tac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665308342805-glt9i426jc9nes8dv4sndf0a11futmhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665308342805:android:461349650b53047ec1fc1c",
+        "android_client_info": {
+          "package_name": "com.example.oneclickadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665308342805-glt9i426jc9nes8dv4sndf0a11futmhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDysaxj5T0D8etiu32Er22OMZUDWrT9Tac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665308342805-glt9i426jc9nes8dv4sndf0a11futmhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
