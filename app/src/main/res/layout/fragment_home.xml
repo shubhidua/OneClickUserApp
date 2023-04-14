@@ -12,12 +12,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <com.smarteist.autoimageslider.SliderView
                 android:id="@+id/slider"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="220dp"
                 android:layout_centerInParent="true"
                 app:sliderAnimationDuration="600"
                 app:sliderAutoCycleDirection="back_and_forth"
@@ -32,6 +33,77 @@
                 app:sliderIndicatorUnselectedColor="#FFF"
                 app:sliderScrollTimeInSec="1" />
 
+            <TextView
+                android:id="@+id/br_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="5dp"
+                android:fontFamily="@string/light"
+                android:text="@string/about_clg"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Branches"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science Engineering"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics &amp; Communication Engineering"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information Technology"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Details"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="5dp"
+                android:fontFamily="@string/light"
+                android:text="Indian Institute of Information Technology\nUna Permanent Campus: Vill. Saloh,\nTeh. Haroli, Distt. Una Himachal Pradesh-177209\nPh: 01975-257908\nEmail: director@iiitu.ac.in"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
 
     </ScrollView>
