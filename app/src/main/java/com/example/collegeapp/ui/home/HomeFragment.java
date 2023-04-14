@@ -34,10 +34,10 @@ public class HomeFragment extends Fragment {
         SliderView sliderView = view.findViewById(R.id.slider);
 
         // adding the urls inside array list
-        sliderDataArrayList.add(new SliderData(url1));
-        sliderDataArrayList.add(new SliderData(url2));
         sliderDataArrayList.add(new SliderData(url3));
         sliderDataArrayList.add(new SliderData(url4));
+        sliderDataArrayList.add(new SliderData(url1));
+        sliderDataArrayList.add(new SliderData(url2));
         sliderDataArrayList.add(new SliderData(url5));
 
         // passing this array list inside our adapter class.
