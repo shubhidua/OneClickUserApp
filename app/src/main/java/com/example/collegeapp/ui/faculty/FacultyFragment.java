@@ -41,15 +41,17 @@ public class FacultyFragment extends Fragment {
         eceDepartment = view.findViewById(R.id.eceDepartment);
         itDepartment = view.findViewById(R.id.itDepartment);
 
-        csNoData = view.findViewById(R.id.csNoData);
-        eceNoData = view.findViewById(R.id.eceNoData);
-        itNoData = view.findViewById(R.id.itNoData);
 
-        reference = FirebaseDatabase.getInstance("https://oneclickadminapp-default-rtdb.asia-southeast1.firebasedatabase.app").getReference().child("teacher");
 
-        csDepartment();
-        eceDepartment();
-        itDepartment();
+//        csNoData = view.findViewById(R.id.csNoData);
+//        eceNoData = view.findViewById(R.id.eceNoData);
+//        itNoData = view.findViewById(R.id.itNoData);
+//
+//        reference = FirebaseDatabase.getInstance("https://oneclickadminapp-default-rtdb.asia-southeast1.firebasedatabase.app").getReference().child("teacher");
+//
+//        csDepartment();
+//        eceDepartment();
+//        itDepartment();
 
         return view;
     }

@@ -1,5 +1,7 @@
 package com.example.collegeapp.ui.home;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.collegeapp.R;
 import com.smarteist.autoimageslider.SliderView;
@@ -15,6 +18,7 @@ import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
 
+    ImageView map;
     String url1 = "https://iiitu.ac.in/wp-content/uploads/2022/02/WhatsApp-Image-2022-10-15-at-3.08.22-PM.jpeg";
     String url2 = "https://iiitu.ac.in/wp-content/uploads/2022/11/Unity-Day-scaled.jpg";
     String url3 = "https://iiitu.ac.in/wp-content/uploads/2023/01/Republic-Day-2023-Students-Group-scaled.jpg";
@@ -33,6 +37,13 @@ public class HomeFragment extends Fragment {
         // initializing the slider view.
         SliderView sliderView = view.findViewById(R.id.slider);
 
+        map = view.findViewById(R.id.map);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openMap();
+            }
+        });
         // adding the urls inside array list
         sliderDataArrayList.add(new SliderData(url3));
         sliderDataArrayList.add(new SliderData(url4));
@@ -65,4 +76,10 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
+    private void openMap() {
+        Uri uri = Uri.parse("geo:0, 0?q=Indian Institute of Information Technology (IIIT) Una, Vill. Saloh, Teh. Haroli, Distt, Una, Himachal Pradesh 177209");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        intent.setPackage("com.google.android.apps.maps");
+        startActivity(intent);
+    }
 }
