@@ -104,6 +104,12 @@
                 android:layout_marginStart="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/map"
+                android:src="@drawable/map" />
         </LinearLayout>
 
     </ScrollView>

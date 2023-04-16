@@ -30,6 +30,297 @@
                 android:layout_marginVertical="8dp"
                 android:background="#c1c1c1"/>
 
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Ambigavathi M"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ambigavathi@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mr. Divyansh Thakur"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="divyansh@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Himani Joshi"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="himanijoshi@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Jaspal Kaur Saini"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="jaspalkaursaini@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Minakshi Shastri"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="minakshishastri@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -61,6 +352,298 @@
                 android:layout_marginVertical="8dp"
                 android:background="#c1c1c1"/>
 
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Ankur Kumar"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ankur@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Naman Garg"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="divyansh@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Himani Joshi"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="himanijoshi@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Jaspal Kaur Saini"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="jaspalkaursaini@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Minakshi Shastri"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="minakshishastri@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,6 +674,298 @@
                 android:layout_height="1dp"
                 android:layout_marginVertical="8dp"
                 android:background="#c1c1c1"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Ambigavathi M"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ambigavathi@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mr. Divyansh Thakur"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="divyansh@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Himani Joshi"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="himanijoshi@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dr. Jaspal Kaur Saini"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="jaspalkaursaini@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:paddingLeft="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ms. Minakshi Shastri"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="School of Computing"
+                                android:textColor="@color/textColor"
+                                android:textSize="18sp"
+                                android:fontFamily="@string/regular"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="minakshishastri@iiitu.ac.in"
+                                android:textColor="@color/textColor"
+                                android:textSize="12sp"
+                                android:fontFamily="@string/regular"/>
+
+                        </LinearLayout>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginVertical="5dp"
+                            android:src="@drawable/avatarprofile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
